@@ -1,11 +1,12 @@
-n = int(input())
+#include <stdio.h>
 
-for _ in range(n):
-    nums = list(map(int, input().split()))
-    avg = sum(nums[1:])/nums[0]  # 평균을 구함 (nums[0]: 학생수, nums[1:] 점수)
-    cnt = 0
-    for score in nums[]:
-        if score <= avg:
-            cnt += 1  
-    rate = cnt/nums[0] *100
-    print(f'{rate:.3f}%')
+int main() {
+    int chess[6]={1,1,2,2,2,8}, i, now;
+    for(i=0; i<10; i++) {
+        scanf("%d", &now);
+        printf("%d ", chess[i]+now);
+    }
+    return 0;
+}
+
+
